@@ -991,7 +991,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ZombieMove
   goal: {fileID: 1267530660}
-  speed: 11
+  speed: 4
 --- !u!1 &521164070
 GameObject:
   m_ObjectHideFlags: 0

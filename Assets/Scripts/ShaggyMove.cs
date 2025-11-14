@@ -20,8 +20,8 @@ public class ShaggyMove : MonoBehaviour
             //Calcula la velocidad y lo mueve de posicion
             Vector3 velocity = direction.normalized * speed * Time.deltaTime;
             this.transform.position = this.transform.position + velocity;
-        } else if (direction.magnitude > 6) {
-            //Si el peligro esta a mas de 6 de distancia, mira hacia el
+        } else if (direction.magnitude > 7) {
+            //Si el peligro esta a mas de 7 de distancia, mira hacia el
             this.transform.LookAt(danger.transform.position);          
         }
     }
