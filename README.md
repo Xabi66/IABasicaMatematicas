@@ -14,7 +14,7 @@ Incluye las siguientes funciones:
 - Hay un *zombie* que persigue automáticamente al jugador y se gira para observarle continuamente.
 - Hay un *NPC* que observa los movimientos del zombie y si el zombie se acerca a el sale huyendo automáticamente mirando hacia el lado contrario.
 
-[Ligazón](https://exemplo.com)
+[Ligazón](https://github.com/Xabi66/IABasicaMatematicas/blob/master/Assets/Scenes/ZombieScene.unity)
 
 ```csharp
 using UnityEngine;
